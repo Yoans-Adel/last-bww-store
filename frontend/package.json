@@ -1,0 +1,39 @@
+{
+  "name": "bww-store-frontend",
+  "version": "1.0.0",
+  "description": "React frontend for BWW Store - Merged from bww-store-looks-like",
+  "private": true,
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.20.1",
+    "axios": "^1.6.2",
+    "styled-components": "^6.1.8",
+    "@mui/material": "^5.15.0",
+    "@mui/icons-material": "^5.15.0",
+    "@emotion/react": "^11.11.3",
+    "@emotion/styled": "^11.11.0",
+    "redux": "^5.0.0",
+    "react-redux": "^9.0.4",
+    "@reduxjs/toolkit": "^2.0.1",
+    "formik": "^2.4.5",
+    "yup": "^1.3.3",
+    "react-i18next": "^14.0.0",
+    "i18next": "^23.7.11",
+    "socket.io-client": "^4.6.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.2.1",
+    "vite": "^5.0.8",
+    "eslint": "^8.56.0",
+    "eslint-plugin-react": "^7.33.2",
+    "prettier": "^3.1.1"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint src/",
+    "format": "prettier --write src/"
+  }
+}

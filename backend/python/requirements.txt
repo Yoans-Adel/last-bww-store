@@ -1,0 +1,82 @@
+# Flask API Framework
+Flask==3.0.0
+Flask-CORS==4.0.0
+Flask-SQLAlchemy==3.1.1
+Flask-JWT-Extended==4.6.0
+Flask-Migrate==4.0.5
+
+# Database
+pymongo==4.6.1
+psycopg2-binary==2.9.9
+SQLAlchemy==2.0.25
+
+# NLP & AI
+transformers==4.36.2
+torch==2.1.2
+nltk==3.8.1
+spacy==3.7.2
+sentence-transformers==2.2.2
+
+# Egyptian Arabic NLP
+camel-tools==1.5.2
+pyarabic==0.6.15
+
+# Chatbot & ML
+scikit-learn==1.3.2
+pandas==2.1.4
+numpy==1.26.2
+
+# Social Media Integration
+facebook-sdk==3.1.0
+twilio==8.11.1
+python-telegram-bot==20.7
+
+# WhatsApp Business API
+heyoo==0.0.10
+
+# Speech Processing
+SpeechRecognition==3.10.1
+pydub==0.25.1
+google-cloud-speech==2.23.0
+
+# API & HTTP
+requests==2.31.0
+httpx==0.26.0
+aiohttp==3.9.1
+
+# Task Queue
+celery==5.3.4
+redis==5.0.1
+
+# Configuration & Environment
+python-dotenv==1.0.0
+pydantic==2.5.3
+pydantic-settings==2.1.0
+
+# Monitoring & Logging
+sentry-sdk==1.39.2
+python-json-logger==2.0.7
+
+# Analytics
+mixpanel==4.10.0
+google-analytics-data==0.18.4
+
+# Testing
+pytest==7.4.3
+pytest-cov==4.1.0
+pytest-asyncio==0.21.1
+pytest-mock==3.12.0
+
+# Development
+black==23.12.1
+flake8==7.0.0
+mypy==1.7.1
+ipython==8.19.0
+
+# Documentation
+sphinx==7.2.6
+sphinx-rtd-theme==2.0.0
+
+# Deployment
+gunicorn==21.2.0
+uvicorn==0.25.0

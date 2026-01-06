@@ -42,7 +42,7 @@ google-cloud-speech==2.23.0
 # API & HTTP
 requests==2.32.4
 httpx==0.26.0
-aiohttp==3.12.14
+aiohttp==3.13.3
 
 # Task Queue
 celery==5.3.4
